@@ -6,20 +6,19 @@ function countLetters(stringInput) {
   for (char of stringInput) {
     if (char in letterCount) {
       letterCount[char] += 1;
-      console.log(letterCount[char] + " was added");
     }
 
     else {
       letterCount[char] = 1;
-      console.log(letterCount[char] + " was increased");
     }
   }
-  console.log(letterCount);
 }
 
 countLetters("hello world how goes");
 
-
+// for (var in list) {
+//
+// }
 
 
 
